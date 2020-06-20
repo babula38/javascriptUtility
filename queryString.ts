@@ -1,4 +1,4 @@
-//Takes a url and return object with querystring value
+//Takes a url and return object from querystring value
 export default function queryString(url: string) {
   const urlArray = url.split('?')
   if (urlArray.length < 2) {
